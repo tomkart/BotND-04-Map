@@ -31,5 +31,5 @@ Use keyboard to control the robot to go around the room
 
 **Result**
 
-
+![Result](BotND_WhereAmI_result.gif)
 
