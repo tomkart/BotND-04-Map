@@ -11,6 +11,10 @@ sudo apt-get install ros-kinetic-rtabmap-ros
 First, launch the Gazebo world and RViz, spawn the robot in the environment:
 ```
 cd ~/BotND-04-Map
+cd src
+catkin_init_workspace
+
+cd ..
 catkin_make
 source devel/setup.bash
 roslaunch my_robot world.launch
@@ -33,7 +37,5 @@ roslaunch my_robot mapping.launch
 ```
 Navigate the robot in the simulation to create map for the environment! When you are all set, terminal the node and you could find your map db file in the place you specified in the launch file. It will be located in the ~/.ros/ folder.
 
-**Result**
 
-![Result](BotND-04-Map-result.gif)
 
