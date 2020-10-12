@@ -39,6 +39,7 @@
       <!-- Loop Closure Detection -->
       <!-- 0=SURF 1=SIFT 2=ORB 3=FAST/FREAK 4=FAST/BRIEF 5=GFTT/FREAK 6=GFTT/BRIEF 7=BRISK 8=GFTT/ORB 9=KAZE -->
       <param name="Kp/DetectorStrategy" type="string" value="0"/>
+      <param name="Vis/FeatureType"     type="string" value="0"/> 
 
       <!-- Maximum visual words per image (bag-of-words) -->
       <param name="Kp/MaxFeatures" type="string" value="400"/>
@@ -63,7 +64,7 @@
     </node>
 
 <!-- visualization with rtabmapviz -->
-   <!-- <node pkg="rtabmap_ros" type="rtabmapviz" name="rtabmapviz" args="-d $(find rtabmap_ros)/launch/config/rgbd_gui.ini" output="screen">
+  <!-- <node pkg="rtabmap_ros" type="rtabmapviz" name="rtabmapviz" args="-d $(find rtabmap_ros)/launch/config/rgbd_gui.ini" output="screen">
         <param name="subscribe_depth"             type="bool" value="true"/>
         <param name="subscribe_scan"              type="bool" value="true"/>
         <param name="frame_id"                    type="string" value="robot_footprint"/>
