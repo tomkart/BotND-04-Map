@@ -37,5 +37,13 @@ roslaunch my_robot mapping.launch
 ```
 Navigate the robot in the simulation to create map for the environment! When you are all set, terminal the node and you could find your map db file in the place you specified in the launch file. It will be located in the ~/.ros/ folder.
 
+**Result**
+The 
+![RTAB Result](BotND-04-Map-RTAB-Map-Result.png)
+
+rtabmap.db is available to download below
+http://bit.ly/botnd-map
+
+
 
 
